@@ -1,0 +1,41 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+
+# Django-specific
+*.sqlite3
+db.sqlite3
+user.db
+orders.db
+products.db
+
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# Media and static files (if generated)
+media/
+staticfiles/
+
+# VS Code and other IDEs
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Migrations (optional, depends on your use case)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Compiled files
+*.so
+
+# Mac and Linux
+.DS_Store
