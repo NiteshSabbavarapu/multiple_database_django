@@ -8,9 +8,6 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tradexa_project.settings")
 django.setup()
 
 
-
-
-
 from user_db_tradexa.models import User, Product, Order
 from user_db_tradexa.insert_values import users_data, products_data, orders_data
 
